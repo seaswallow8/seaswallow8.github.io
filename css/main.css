@@ -1938,7 +1938,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff81;
+  background: #131cff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3111,6 +3111,25 @@ img:hover {
 }
 .with-love {
   color: #c00027;
+}
+.out-img-topic {
+  display: block;
+  max-height: 380px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+img.img-topic {
+  display: block;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  padding: 0;
+  float: right;
+  clear: right;
+}
+.posts-expand .post-body img {
+  border: none;
+  padding: 0px;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
